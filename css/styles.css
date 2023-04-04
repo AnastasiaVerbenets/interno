@@ -1,7 +1,7 @@
 body {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    color: #4D5053;
+    color: #4d5053;
     font-size: 22px;
 }
 
@@ -66,12 +66,12 @@ img {
 .hero-section {
     height: 831px;
     max-width: 100%;
+    border-radius: 0px 0px 0px 290px;
 
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/more/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 0px 0px 0px 290px;
 
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ img {
     width: 207px;
     height: 71px;
 
-    background-image: url(../img/button.jpg);
+    background-image: url(../img/buttons/button.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -174,7 +174,7 @@ img {
 
 .advantages-list-link::after {
     content: "";
-    background-image: url(../img/arrow.svg);
+    background-image: url(../img/more/arrow.svg);
     width: 24px;
     height: 17px;
     margin-left: 6px;
@@ -182,3 +182,258 @@ img {
 
 /* Section designs */
 
+.designs-section {
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.designs-title {
+    width: 450px;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 42px;
+}
+
+.designs-text {
+    width: 531px;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.number {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+}
+
+.design-button-phone {
+    margin-right: 20px;
+}
+
+.designs-phone {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+
+}
+
+.designs-subtext {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.designs-button {
+    width: 263px;
+    height: 71px;
+
+    background-image: url(../img/buttons/button2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    padding: 22px 67px 22px 34px;
+
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: white;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+/* Section reviews */
+
+.reviews-section {
+    background-color: #F4F0EC;
+    border-radius: 70px;
+    margin-bottom: 140px;
+
+}
+
+.reviews-title {
+    padding-top: 103px;
+    font-family: 'DM Serif Display';
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 46px;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+
+}
+
+.reviews-list-item {
+    background-color: white;
+    width: 354px;
+    height: 287px;
+    border-radius: 30px;
+    padding: 50px 30px 45px 35px;
+}
+
+.reviews-list-item:not(:last-child){
+    margin-right: 16px;
+}
+
+.reviews-img {
+    margin-right: 20px;
+}
+
+.reviews-list-name {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.reviews-list-city {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;  
+}
+
+.reviews-list-text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.reviews-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/* Section brands */
+
+.brands-section {
+    margin-bottom: 100px;
+}
+.brands-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Section projects */
+
+.projects-section {
+    margin-bottom: 140px;
+}
+
+.projects-title {
+    font-family: 'DM Serif Display';
+    font-size: 47px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 20px;
+}
+
+.projects-text {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 70px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+    flex-basis: calc((100% - 20px) / 2);
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.projects-list-title {
+    margin-top: 24px;
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.projects-list-style {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+/* Section info  */
+
+.info-section {
+    height: 475px;
+    background-color: #F4F0EC;
+    padding: 140px 0;
+
+}
+
+.info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-list-item {
+    width: 288px;
+    height: 195px;
+}
+
+.info-list-item:not(:last-child) {
+    border-right: 1px solid #CDA274;
+    margin-right: 16px;
+}
+
+.info-list-title {
+    font-family: 'DM Serif Display';
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: #CDA274;
+}
+
+.info-list-text {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
