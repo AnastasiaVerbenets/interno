@@ -129,6 +129,7 @@ img {
 .advantages-list {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .advantages-list-item {
@@ -137,9 +138,6 @@ img {
     align-items: center;
 }
 
-.advantages-list-item:not(:last-child){
-    margin-right: 100px;
-}
 
 .advantages-list-title {
     font-family: 'DM Serif Display';
@@ -418,7 +416,7 @@ img {
 
 .info-list-item:not(:last-child) {
     border-right: 1px solid #CDA274;
-    margin-right: 16px;
+    margin-right: 16px; 
 }
 
 .info-list-title {
@@ -436,4 +434,75 @@ img {
     text-align: center;
     letter-spacing: 0.22px;
     color: #4D5053;
+}
+
+/* Section connect */
+
+.connect-section {
+    height: 414px;
+    background-color: #292F36;
+    border-radius: 70px;
+    text-align: center;
+    margin-bottom: 130px;
+
+}
+
+.connect-title {
+    padding-top: 100px;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.connect-text {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.connect-button {
+    width: 241px;
+    height: 71px;
+    background-color: #CDA274;
+    border: none;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+.footer-section {
+}
+.footer-logo {
+}
+.foot-logo-text {
+}
+.footer-logo-list {
+}
+.foooter-logo-icon {
+}
+.footer-pages {
+}
+.footer-subtitle {
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.fooetr-explore {
+}
+.footer-contact {
 }
