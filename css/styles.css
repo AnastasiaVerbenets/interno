@@ -465,7 +465,7 @@ img {
 .blogs-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px 20px;
 }
 
 .blogs-list-item {
